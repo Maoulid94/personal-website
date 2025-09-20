@@ -16,7 +16,7 @@ export const slugify = (s: string) =>
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/(^-|-$)+/g, "");
 
-export const DetailProjects: Project[] = [
+export const Projects: Project[] = [
   {
     title: "Questionnaire Intelligent",
     tags: ["React", "FastAPI", "Power BI", "Model IA", "PostgreSQL"],
@@ -75,4 +75,4 @@ export const DetailProjects: Project[] = [
   },
 ];
 
-export default DetailProjects;
+export default Projects;
