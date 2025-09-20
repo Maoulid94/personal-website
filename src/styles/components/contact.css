@@ -1,0 +1,12 @@
+.contact {
+  /* text-align: center; */
+  background: color-mix(in srgb, var(--surface) 85%, var(--bg));
+  padding: 40px 20px;
+}
+.contact a {
+  color: var(--brand);
+  font-weight: 500;
+}
+.contact a:hover {
+  color: var(--brand-600);
+}

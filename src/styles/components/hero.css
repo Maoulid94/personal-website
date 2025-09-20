@@ -1,0 +1,22 @@
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(
+    to right,
+    var(--brand),
+    color-mix(in srgb, var(--brand-600) 80%, var(--brand))
+  );
+  color: white;
+  border-radius: var(--rounded);
+  box-shadow: var(--shadow);
+}
+.hero h2 {
+  font-size: clamp(1.75rem, 2.5vw, 2.25rem);
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  margin-bottom: 1rem;
+  color: color-mix(in srgb, #fff 92%, transparent);
+}

@@ -1,0 +1,83 @@
+.cv {
+  padding: 0;
+}
+.cv--image-preview {
+  margin-top: 0.5rem;
+}
+
+/* Two cards grid */
+.cv-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+@media (max-width: 800px) {
+  .cv-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cv-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--rounded);
+  box-shadow: var(--shadow);
+  padding: 1rem;
+}
+
+.cv-card__header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.cv-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--brand) 12%, var(--surface));
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+.cv-title {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+/* A4 portrait preview box */
+.cv-thumb-wrap {
+  width: 100%;
+  aspect-ratio: 210 / 222;
+  background: color-mix(in srgb, var(--surface) 94%, #000);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.cv-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* show full page */
+  display: block;
+  transition: transform 0.25s ease;
+}
+.cv-thumb-link:hover .cv-thumb {
+  transform: scale(1.02); /* subtle hover zoom */
+}
+
+/* Actions row (uses your existing .btn-ghost style) */
+.cv-actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 0.75rem;
+}
+.cv-heading {
+  text-align: center;
+  margin: 0 0 1rem 0;
+  color: var(--text);
+  font-size: 1.25rem; /* tweak as you like */
+  font-weight: 700;
+}
