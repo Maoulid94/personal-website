@@ -23,7 +23,7 @@ export const Projects: Project[] = [
     description:
       "Collecte de données via QR code et analyse prédictive pour anticiper les résultats.",
     url: "https://example.com/live",
-    demoUrl: "https://8ed5f8ca.textanalysiscountdown.pages.dev/",
+    demoUrl: "https://textanalysiscountdown.pages.dev/",
     repoUrl: "https://github.com/Maoulid94/TextAnalysisCountdown",
     images: ["/QA-1.png", "/QA-2.png", "/QA-3.png"],
   },
@@ -33,7 +33,7 @@ export const Projects: Project[] = [
     description:
       "Développement d’une API Python unifiant Ollama et Google Gemini avec support streaming, découverte dynamique des modèles et déploiement containerisé.",
     url: "",
-    demoUrl: "https://e6b4ac4d.ollaix-chatbox.pages.dev/",
+    demoUrl: "https://ollaix-chatbox.pages.dev/",
     repoUrl: "https://github.com/Maoulid94/ollaix-chatBox",
     images: ["/chatBox-1.png", "/chatBox-2.png", "/chatBox-3.png"],
   },
