@@ -14,7 +14,7 @@ const Navbar = ({ activeId }: NavbarProps) => {
   const close = () => setOpen(false);
 
   const links = [
-    { href: "#about", id: "about", label: "About" },
+    { href: "#about", id: "about", label: "À propos" },
     { href: "#projects", id: "projects", label: "Projects" },
     { href: "#cv", id: "cv", label: "CV" },
     { href: "#contact", id: "contact", label: "Contact" },
