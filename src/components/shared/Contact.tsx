@@ -22,14 +22,6 @@ export default function Contact() {
         <a href="https://github.com/Maoulid94" target="_blank" rel="noreferrer">
           GitHub
         </a>
-        {" | "}
-        <a
-          href="https://maoulid-dev.pages.dev/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Maoulid.dev/Cv
-        </a>
       </p>
     </div>
   );
