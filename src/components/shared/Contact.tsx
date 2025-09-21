@@ -19,12 +19,16 @@ export default function Contact() {
           LinkedIn
         </a>
         {" | "}
+        <a href="https://github.com/Maoulid94" target="_blank" rel="noreferrer">
+          GitHub
+        </a>
+        {" | "}
         <a
-          href=": https://github.com/Maoulid94"
+          href="https://maoulid-dev.pages.dev/"
           target="_blank"
           rel="noreferrer"
         >
-          GitHub
+          Maoulid.dev/Cv
         </a>
       </p>
     </div>
