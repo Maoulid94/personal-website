@@ -44,7 +44,7 @@ export const Projects: Project[] = [
       "App mobile avec tableau de bord multi-années, upload de factures d’eau, estimation des montants et profil utilisateur avec paramètres (changement de mot de passe, mode clair/sombre).",
     url: "",
     repoUrl: "https://github.com/Maoulid94/onead_app",
-    images: ["/card-1.jpeg", "/card-2.jpeg", "/card-3.jpeg"],
+    images: ["/O-1.png", "/O-2.png", "/O-3.png", "/O-4.png", "/O-5.png"],
   },
   {
     title: "Gestion des Cartes Crédit avec IA",
