@@ -61,7 +61,7 @@ export const Projects: Project[] = [
     description:
       "Application mobile connectée à des modèles IA pour la surveillance du trafic et la gestion police/assurance.",
     url: "",
-    repoUrl: "https://github.com/youruser/yourrepo",
+    repoUrl: "https://github.com/Maoulid94/vehicles_detection",
     images: ["/SR-1.png", "/SR-2.png", "/SR-3.png"],
   },
   {
