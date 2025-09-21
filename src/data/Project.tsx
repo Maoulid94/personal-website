@@ -50,7 +50,7 @@ export const Projects: Project[] = [
     title: "Gestion des Cartes Crédit avec IA",
     tags: ["React Native", "Model AI", "API REST", "PostgreSQL"],
     description:
-      "Application de gestion des cartes bancaires avec IA : authentification sécurisée, extraction automatique des numéros de cartes, tableaux de bord statistiques et personnalisation visuelle (mode clair/sombre).",
+      "Application de gestion de cartes de crédit avec IA : authentification sécurisée, extraction automatique des numéros de cartes, tableaux de bord statistiques et personnalisation visuelle (mode clair/sombre).",
     url: "",
     repoUrl: "https://github.com/Maoulid94/DjbEasyCard",
     images: ["/card-1.jpeg", "/card-2.jpeg", "/card-3.jpeg"],
