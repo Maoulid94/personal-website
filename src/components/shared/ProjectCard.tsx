@@ -166,6 +166,9 @@ export default function ProjectCard({
         <Link to={`/projects/${slug}`} className="btn-ghost">
           View Project
         </Link>
+        {/* 
+          // External link icon for live demo
+
         {demoUrl && (
           <a
             href={demoUrl}
@@ -175,7 +178,6 @@ export default function ProjectCard({
             aria-label={`Open live demo of ${title}`}
             title="Open live demo"
           >
-            {/* External link icon */}
             <svg
               aria-hidden="true"
               viewBox="0 0 24 24"
@@ -191,6 +193,7 @@ export default function ProjectCard({
             Demo
           </a>
         )}
+         */}
 
         {repoUrl && (
           <a
